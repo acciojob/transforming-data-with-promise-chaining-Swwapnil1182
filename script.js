@@ -55,7 +55,7 @@ function fifthPromise(result4){
     return new Promise((resolve)=>{
         const result5=result4+10;
         setTimeout(() => {
-             document.getElementById('output').textContent=`Result: ${result5}`
+             document.getElementById('output').textContent=`Final Result: ${result5}`
             resolve(result5)
         }, 1000);
     })
